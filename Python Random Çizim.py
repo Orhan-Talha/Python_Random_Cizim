@@ -6,7 +6,6 @@ screen.title("Python Turtle")
 turtle_instance=turtle.Turtle()
 turtle_instance.left(36)
 turtle_instance.speed(0)
-x=random.randint(1,2)
 while True:
     x = random.randint(1, 2)
     turtle_instance.forward(random.randint(1,25))
